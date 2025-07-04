@@ -1,21 +1,21 @@
 # 🚀 Artem Zinkovets API Test - Blockchain Integration
 
-## 📋 Описание
-Реализация тестового задания для blockchain developer позиции. Создан новый API для интеграции со смарт-контрактами Ethereum.
+## 📋 Description
+Implementation of a test task for a blockchain developer position. Created a new API for integration with Ethereum smart contracts.
 
-## ✨ Основные возможности
-- ✅ **Smart Contract Integration** - Интеграция со смарт-контрактами
-- ✅ **ERC20 Token Support** - Поддержка ERC20 токенов
-- ✅ **Network Information** - Получение информации о сети Ethereum
-- ✅ **Block Explorer** - Функциональность исследования блоков
-- ✅ **Error Handling** - Комплексная обработка ошибок
-- ✅ **Fallback System** - Система отката к мок-данным
+## ✨ Key Features
+- ✅ **Smart Contract Integration** - Integration with smart contracts
+- ✅ **ERC20 Token Support** - ERC20 token support
+- ✅ **Network Information** - Ethereum network information retrieval
+- ✅ **Block Explorer** - Block exploration functionality
+- ✅ **Error Handling** - Comprehensive error handling
+- ✅ **Fallback System** - Fallback system to mock data
 
-## 🔧 Технологический стек
-- **Node.js** - Среда выполнения
-- **Express.js** - Веб-фреймворк
-- **Web3.js** - Интеграция с Ethereum
-- **Axios** - HTTP клиент для тестирования
+## 🔧 Technology Stack
+- **Node.js** - Runtime environment
+- **Express.js** - Web framework
+- **Web3.js** - Ethereum blockchain integration
+- **Axios** - HTTP client for testing
 
 ## 📡 API Endpoints
 
@@ -44,25 +44,25 @@ GET /api/artemzinkovetsapitest/erc20/:address
 GET /api/artemzinkovetsapitest/block/:blockNumber
 ```
 
-## 📁 Созданные файлы
-- `server/routes/api/artemzinkovetsapitest.js` - Основной API файл
-- `test_artemzinkovets_api.js` - Тестовый скрипт
-- `API_README.md` - Подробная документация
-- `server.js` - Обновлен для подключения нового API
+## 📁 Created Files
+- `server/routes/api/artemzinkovetsapitest.js` - Main API file
+- `test_artemzinkovets_api.js` - Test script
+- `API_README.md` - Comprehensive documentation
+- `server.js` - Updated to connect new API
 
-## 🧪 Тестирование
+## 🧪 Testing
 
-### Запуск сервера:
+### Start Server:
 ```bash
 node server.js
 ```
 
-### Запуск тестов:
+### Run Tests:
 ```bash
 node test_artemzinkovets_api.js
 ```
 
-### Результаты тестирования:
+### Test Results:
 ```
 🎉 ALL TESTS COMPLETED SUCCESSFULLY!
 Developer: Artem Zinkovets
@@ -70,37 +70,37 @@ API Name: artemzinkovetsapitest
 Features: Smart Contract Integration, ERC20 Support, Block Explorer
 ```
 
-## 📊 Примеры использования
+## 📊 Usage Examples
 
-### Информация о сети:
+### Network Information:
 ```bash
 curl -X GET http://localhost:5025/api/artemzinkovetsapitest/ethereum/info
 ```
 
-### Информация о контракте USDT:
+### USDT Contract Information:
 ```bash
 curl -X GET http://localhost:5025/api/artemzinkovetsapitest/contract/0xdAC17F958D2ee523a2206206994597C13D831ec7
 ```
 
-### Информация о ERC20 токене:
+### ERC20 Token Information:
 ```bash
 curl -X GET http://localhost:5025/api/artemzinkovetsapitest/erc20/0xdAC17F958D2ee523a2206206994597C13D831ec7
 ```
 
-## 🎯 Выполненные требования
-- ✅ Создан новый API с именем `artemzinkovetsapitest`
-- ✅ Реализована интеграция со смарт-контрактами
-- ✅ Получение информации о смарт-контрактах через API
-- ✅ Результаты выводятся в консоль
-- ✅ Не создавался фронтенд (только backend API)
-- ✅ Код интегрирован в существующий проект
+## 🎯 Requirements Fulfilled
+- ✅ Created new API named `artemzinkovetsapitest`
+- ✅ Implemented smart contract integration
+- ✅ Fetching smart contract information via API
+- ✅ Results output to console
+- ✅ No frontend created (backend API only)
+- ✅ Code integrated into existing project
 
-## 🔮 Возможные улучшения
-- Добавление аутентификации и rate limiting
-- Кеширование для часто запрашиваемых данных
-- Поддержка множественных blockchain сетей
-- WebSocket соединения для real-time данных
-- Интеграция с базой данных для исторических данных
+## 🔮 Possible Enhancements
+- Add authentication and rate limiting
+- Implement caching for frequently requested data
+- Support for multiple blockchain networks
+- WebSocket connections for real-time data
+- Database integration for historical data storage
 
 ---
 
